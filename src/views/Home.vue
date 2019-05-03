@@ -12,7 +12,7 @@ import Header from "../components/molecules/Header.vue";
 import Introduction from "../components/molecules/Introduction.vue";
 import PageSection from "../components/organisms/PageSection.vue";
 import Footer from "../components/molecules/Footer.vue";
-
+// hello
 export default {
 	components: {
 		Header,
