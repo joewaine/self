@@ -1,6 +1,6 @@
 <template>
 	<div class="solution">
-		<div class="container">
+		<div class="container" data-aos="fade-up" data-aos-delay="0">
 			<div class="row solution__bgpad">
 				<div class="col-lg-12 col-xl-6">
 					<AppSubheader
@@ -10,6 +10,10 @@
 					<AppParagraph
 						className="solution__shortnote no-bottom-m"
 						:content="content.bottomSection.shortnote"
+					/>
+					<AppParagraph2
+						className="solution__shortnote no-bottom-m subheader-text"
+						:content="content.bottomSection.shortnoteSmall"
 					/>
 					<AppParagraph
 						className="solution__description"
@@ -50,6 +54,7 @@
 
 <script>
 import AppParagraph from "../../components/atoms/AppParagraph.vue";
+import AppParagraph2 from "../../components/atoms/AppParagraph2.vue";
 import AppSubheader from "../../components/atoms/AppSubheader.vue";
 import ImageLink from "./ImageLink.vue";
 import ImageLink2 from "./ImageLink2.vue";
@@ -58,6 +63,7 @@ export default {
 	name: "ImageTip",
 	components: {
 		AppParagraph,
+		AppParagraph2,
 		AppSubheader,
 		ImageLink2,
 		ImageLink

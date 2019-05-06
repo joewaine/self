@@ -12,13 +12,16 @@
     &-- {
         &tip {
             font-weight: $bold;
-            font-size: 22px;
-            width: 78px;
+            font-family: "Segoe UI Bold";
+            font-size: 18px;
+            width: 72px;
+            letter-spacing: 1px;
         }
         &tipbox {
             @include flexbox;
             @include align-items(flex-start);
-            padding-right: 40px;
+            // padding-right: 40px;
+            margin-bottom: 30px;
         }
         &horizondalline {
             content: '';
@@ -26,11 +29,13 @@
             height: 1px;
             background: $bg--horizondal;
             position: relative;
-            top: 14px;
+            top: 12px;
         }
         &title {
-            font-size: 40px;
+
+            font-size: 42px;
             line-height: 55px;
+            margin-bottom: 30px;
             @include media-breakpoint-down(sm) {
                 font-size: 35px;
                 line-height: 42px;
@@ -39,8 +44,9 @@
         &shortnote {
             padding-top: 40px;
             padding-top: 12px;
-            font-size: 30px;
-            line-height: 39px;
+            // font-size: 30px;
+            font-size: 24px;
+            line-height: 34px;
             @include media-breakpoint-down(sm) {
                 font-size: 25px;
                 line-height: 35px;
@@ -48,13 +54,16 @@
         }
         &description {
             padding: 0px;
+            // font-size: 16px;
+            // line-height: 22px;
             font-size: 18px;
-            line-height: 26px;
+            line-height: 24px;
             margin-bottom: 30px;
             @include media-breakpoint-down(sm) {
                 font-size: 16px;
                 line-height: 24px;
             }
+
         }
         &padlr7 {
             padding:0 7%;
@@ -83,7 +92,8 @@
         }
         &fontweight {
             padding-right: 30px;
-            font-weight: $bold;
+            // font-weight: $bold;
+
         }
         &mar0 {
             margin: 0px;
@@ -100,7 +110,7 @@
             position: absolute;
             bottom: 0px;
             padding: 16px 36px;
-            font-size: 18px;
+            font-size: 16px;
             color: $text--white;
             text-decoration: none;
             background: $ccpa--blue;
@@ -116,6 +126,8 @@
 .tipsection__linktext{
     p{
         padding-top: 2px;
+        font-size: 18px;
+        line-height: 24px;
     }
 }
 
@@ -143,15 +155,21 @@
         padding: 9.4% 0 8% 0;
     }
     h1 {
-		line-height: 80px;
-		font-size: 58px;
-		margin-bottom: 5px;
+		// line-height: 80px;
+		// font-size: 58px;
+        // margin-bottom: 5px;
+        line-height: 90px;
+        font-size: 66px;
+        margin-bottom: 40px;
         @include media-breakpoint-down(sm) {
-            font-size: 40px;
+            font-size: 32px;
+            // font-size: 40px;
             line-height: 55px;
         }
 	}
     .common--fontweight {
+        font-size: 32px;
+        line-height: 32px;
         @include media-breakpoint-down(sm) {
             font-size: 22px;
             line-height: 29px;
@@ -162,7 +180,7 @@
         &linksection {
             @include flexbox;
             @include align-items(center);
-            padding-top: 64px;
+            padding-top: 60px;
             img {
                 width: 42px;
             }
@@ -177,7 +195,9 @@
             
         }
         &linkReadmore {
-            font-size: 23px;
+            font-size: 21px;
+            font-family: "Segoe UI Semibold", -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
+            letter-spacing: 2px;
             padding-left: 21px;
             text-decoration: none;
             color: $text--white;
@@ -185,6 +205,7 @@
             @include media-breakpoint-down(sm) {
                 font-size: 20px;
             }
+            
         }
     }
 }
@@ -238,7 +259,7 @@
     &__left {
         &--description{
             // padding-top: 6.5%;
-            padding-top: 16px;
+            padding-top: 12px;
             @include media-breakpoint-down(lg) {
                 margin-bottom: 4.5% !important;
             }
@@ -276,7 +297,7 @@
         padding-bottom: 6px;
         padding-top: 6px;
         padding-right: 100px;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 24px;
          @include media-breakpoint-down(lg) {
             padding-right: 0px;
@@ -308,7 +329,7 @@
             }
         }
         span {
-             font-style: italic;
+            //  font-style: italic;
         }
         b {
             font-style: normal;
@@ -322,7 +343,7 @@
         &--description{
                 padding-right: 25px;
                 padding-top: 0px;
-                font-size: 30px;
+                font-size: 24px;
                 line-height: 39px;
                 @include media-breakpoint-down(lg) {
                     padding-right: 0px;
@@ -332,7 +353,7 @@
                     line-height: 29px;
                 }
                 b {
-                    font-style: italic;
+                    // font-style: italic;
                 }
         }
 
@@ -414,7 +435,7 @@
     }
     &__{
         &title {
-            font-size: 50px;
+            font-size: 46px;
             line-height: 80px;
             letter-spacing: 1px;
             @include media-breakpoint-down(lg)  {
@@ -425,10 +446,11 @@
         &shortnote {
             // padding-top: 40px;
             padding-top: 16px;
-            font-size: 30px;
+            font-size: 24px;
             line-height: 42px;
             padding-right: 40px;
             letter-spacing: -.03rem;
+            
             @include media-breakpoint-down(lg) {
                 font-size: 24px;
                 line-height: 35px;
@@ -438,12 +460,12 @@
         }
         &description {
             padding: 26px 70px 0 0;
-            font-size: 18px;
-            line-height: 26px;
+            font-size: 16px;
+            line-height: 22px;
             letter-spacing: -.01rem;
             margin-bottom: 30px !important;
              @include media-breakpoint-down(lg) {
-                font-size: 18px;
+                font-size: 16px;
                 padding-top: 24px;
                 padding-right: 0px;
             }
@@ -487,8 +509,9 @@
             
         &textlink {
             font-size: 18px;
-            padding: 7px;
-            padding-top: 38px;
+            // padding: 7px;
+            // padding-top: 38px;
+            padding-top: 34px;
             @include flexbox;
             @include align-items(center);
             letter-spacing: .02rem;
@@ -522,6 +545,9 @@
                     fill: #d5ecff !important;
                 }
 
+            }
+            svg{
+                width: 15px;
             }
         }
         &downloadtext {
@@ -665,7 +691,7 @@
 position: absolute;
 right: 0;
 width: 53%;
-top: 6px;
+top: 26px;
 
 
  &.aos-init.aos-animate{
@@ -859,13 +885,16 @@ span{
 
 
 .arrow-box-white{
-width: 50px;
+    // width: 36px;
+    width: 43px;
+    padding-top: 7px;
+}
 
 svg{
     width:100%;
 }
 
-}
+
 
 .no-bottom-m{
     margin-bottom: 0;
@@ -881,6 +910,22 @@ svg{
     ul{
         padding-left: 18px
     }
+}
+
+
+.trustcontent .tipsection .common--shortnote{
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.cls-1{
+    fill: #0f6ebe;
+}
+
+
+.cls-1-stroke{
+    stroke: #0f6ebe;
 }
 
 @media (max-width: 1080px) {
@@ -903,8 +948,18 @@ svg{
         }
     }
 
-}
 
+    .tipsection__linktext p {
+        padding-top: 12px;
+    }
+
+
+
+    .solution p.no-bottom-m {
+        padding-top: 20px;
+    }
+
+}
 
 
 
@@ -924,4 +979,82 @@ svg{
     }
 
 
+}
+
+
+.trustcontent.tipsection.common--shortnote.altWeight{
+    font-family: "Segoe UI Semibold", -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
+    font-size: 42px !important;
+    line-height: 55px;
+    margin-bottom: 30px;
+
+
+}
+
+.additional-bottom-pad{
+    margin-bottom: 120px;
+}
+
+
+
+.common--title.common--fontweight.additional-bottom-pad.secondaryH2{
+    font-size: 42px !important;
+    line-height: 55px;
+}
+
+
+p.common--shortnote.common--fontweight{
+    padding-top: 40px;
+    padding-top: 12px;
+    font-size: 30px;
+    line-height: 34px;
+    margin-bottom: 30px;
+}
+
+
+#ccpaSection{
+.common--title{
+    font-size: 42px;
+    line-height: 55px;
+    margin-bottom: 10px;
+}
+}
+
+.additional-info-small{
+    font-family: "Segoe UI Regular", -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
+    font-weight: 100;
+    font-size: 1.9em;
+    line-height: 1.4em;
+    margin: 0;
+
+     b{
+        font-style: italic;
+        font-weight: 600;
+     }
+
+}
+
+.subheader-text{
+    font-weight: 100;
+    font-size: 1.9em;
+    line-height: 1.4em;
+}
+
+.solution{
+
+
+h2{
+    line-height: 90px;
+    font-size: 66px;
+    margin-bottom: 40px;
+}
+
+    &__description{
+        padding: 56px 70px 0 0;
+        letter-spacing: -.01rem;
+        margin-bottom: 30px !important;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    
 }

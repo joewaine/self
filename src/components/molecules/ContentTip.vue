@@ -22,7 +22,7 @@
 							:content="tipContent.trustHead"
 						/>
 						<AppParagraph
-							className="common--shortnote common--fontweight common--padt6"
+							className="common--shortnote common--fontweight"
 							:content="tipContent.title"
 						/>
 						<AppParagraph
@@ -93,10 +93,30 @@
 								class="tipsection__right"
 								v-if="tipContent.additionalInfo"
 							>
-								<AppSubheader3
-									className="tipsection__right--description common--shortnote"
+								<AppSubheader4
+									className="common--title common--fontweight additional-bottom-pad secondaryH2"
 									:content="tipContent.additionalInfo"
 								/>
+								<AppSubheader5
+									className=""
+									:content="tipContent.additionalInfoSmall"
+								/>
+
+								<AppParagraph
+									v-if="tipContent.descriptionInfo"
+									className="common--description tipsection--padt12"
+									:content="tipContent.descriptionInfo"
+								/>
+							</div>
+							<div
+								class="tipsection__right"
+								v-if="tipContent.additionalInfoSmall"
+							>
+								<AppSubheader5
+									className="additional-info-small"
+									:content="tipContent.additionalInfoSmall"
+								/>
+
 								<AppParagraph
 									v-if="tipContent.descriptionInfo"
 									className="common--description tipsection--padt12"
@@ -115,6 +135,8 @@
 import AppParagraph from "../../components/atoms/AppParagraph.vue";
 import AppSubheader from "../../components/atoms/AppSubheader.vue";
 import AppSubheader3 from "../../components/atoms/AppSubheader3.vue";
+import AppSubheader4 from "../../components/atoms/AppSubheader4.vue";
+import AppSubheader5 from "../../components/atoms/AppSubheader5.vue";
 
 
 
@@ -128,6 +150,8 @@ export default {
 		AppParagraph,
 		AppSubheader,
 		AppSubheader3,
+		AppSubheader4,
+		AppSubheader5,
 		VideoSection,
 		ImageLink
 	},
@@ -224,6 +248,11 @@ export default {
 				&shortnote {
 					font-weight: 100;
 					font-size: 30px;
+					line-height: 40px;
+					margin-bottom: 30px;
+					font-size: 32px !important;
+					line-height: 40px;
+
 				}
 				&title {
 					// padding-top: 17px;
@@ -242,15 +271,16 @@ export default {
 	.tipsection {
 		padding-top: 22px;
 		&__right {
-			padding: 59px 29px 176px 9.3%;
+			// padding: 59px 29px 176px 9.3%;
 			background: $bg-ccpacontent;
 			@include media-breakpoint-down(lg) {
 				// padding: 9.2% 4% 9.2% 9.3% !important;
 				padding: 8.6% 9.3% 9.2% 9.3% !important;
 			}
 			&--description {
-				font-size: 41px;
-				padding-bottom: 22px;
+				// font-size: 41px;
+				font-size: 32px;
+				padding-bottom: 12px;
 				margin-bottom: 0px;
 				@include media-breakpoint-down(sm) {
 					font-size: 35px;

@@ -18,16 +18,16 @@ export default {
 	trust: {
 		trustHead: "Building customer trust",
 		title:
-			"Today, building customer trust in how you handle data is an important part of growing your business",
+			"Today, building customer trust in how you handle data is an important part of growing your business.",
 		description:
-			"That comes from increasing public interest into knowing how their private information is being used—including where and what information is stored, and if it’s sold to any third-party organization. Recognizing the success of the General Data Protection Regulation (GDPR), California took the initiative with the California Consumer Privacy Act (CCPA). While other states and the federal government are considering regulations of their own, CCPA is the first US data privacy regulation of its kind. This law will grant consumers new rights concerning the collection and sale of their personal information.",
+			"That comes from increasing public interest into knowing how their private information is being used—including where and what information is stored, and if it’s sold to any third-party organization.<br /><br />Recognizing the success of the General Data Protection Regulation (GDPR), California took the initiative with the California Consumer Privacy Act (CCPA). While other states and the federal government are considering regulations of their own, CCPA is the first US data privacy regulation of its kind. This law will grant consumers new rights concerning the collection and sale of their personal information.",
 		additionalInfo: "A global trend toward stronger privacy protections",
 		descriptionInfo:
 			"Driven by the continued rise in consumer data breaches and growing privacy concerns, the State of California has passed the California Consumer Privacy Act (CCPA). The law will significantly strengthen privacy in the U.S. and is part of a global trend toward stronger privacy protections and greater data transparency, which included the General Data Protection Regulation (GDPR).",
 		linkText: []
 	},
 	ccpa: {
-		title: "The California Consumer Privacy Act",
+		title: "<span class='semi-bold'>The California Consumer Privacy Act</span>",
 		description:
 			"CCPA grants consumers new rights concerning the collection and sale of their data",
 		additionalInfo: "Let Microsoft help you",
@@ -47,13 +47,13 @@ export default {
 		content: [
 			{
 				hint: "TIP 1",
-				title: "Use the GDPR assessment in Compliance Manager",
+				title: "<span class='semi-bold'>Use the GDPR assessment in Compliance Manager</span>",
 				description:
 					"Completing the GDPR assessment in Compliance Manager can help your organization with their initial CCPA compliance. Compliance Manager enables you to measure institutional readiness and monitor compliance activities for regulations such as the GDPR, Health Insurance Portability and Accountability Act (HIPAA), NIST 800-53, and ISO 27001 status. You can be more confident that you’re considering the right measures to prepare for compliance regulations while demonstrating which data protection capabilities are in place and their status.",
 				videoUrl: "additional-visual-cues-capture.mp4",
 				playUrl: "playIcon.png",
 				jsllPlay: "tip-01-select-video-01",
-				additionalInfo:
+				additionalInfoSmall:
 					"Compliance Manager enables you to assign, track, and record your compliance activities, so you can collaborate across teams and manage your documents for creating audit reports more easily.",
 				linkText: [
 					{
@@ -66,14 +66,13 @@ export default {
 			},
 			{
 				hint: "TIP 2",
-				title:
-					"Establish a process to efficiently respond to Data Subject Requests",
+				title: "<span class='semi-bold'>Establish a process to efficiently respond to Data Subject Requests</span>",
 				description:
 					"The CCPA requires a 12-month look-back period, meaning that the public can request data records dating back an entire year from when the request is made. In preparation, you should begin to identify collected records of personal information dating back to January 2019 and improve standards for how your organization inventories personal information.<br><br> Using search and discovery tools from Microsoft, you can effectively respond to Data subject requests (DSR) while protecting the security and privacy, and use the Content Search tool in the Microsoft 365 security & compliance center to search for most DSR-related data.",
 				videoUrl: "additional-visual-cues-capture.mp4",
 				playUrl: "playIcon.png",
 				jsllPlay: "tip-02-select-video-01",
-				additionalInfo:
+				additionalInfoSmall:
 					"Consumers around the globe want control over their data, and US consumers are no exception. ",
 				linkText: [
 					{
@@ -88,13 +87,13 @@ export default {
 			{
 				hint: "TIP 3",
 				title:
-					"Discover, classify and label, and protect sensitive data",
+					"<span class='semi-bold'>Discover, classify and label, and protect sensitive data</span>",
 				description:
 					"To move toward CCPA compliance, you can use data labeling—commonly known as classification—to better identify when US personally identifiable information (PII) sensitive data types are stored within documents. <br><br>Microsoft tools, such as Microsoft Information Protection, can help you get started with data classification, identifying sensitive data and implementing processes related to the data. Using data governance features within Office 365, you can automatically classify data based on the sensitivity of the content. Using data classification, you can also implement safeguards to protect data sharing both internally and externally. ",
 				videoUrl: "additional-visual-cues-capture.mp4",
 				playUrl: "playIcon.png",
 				jsllPlay: "tip-03-select-video-01",
-				additionalInfo:
+				additionalInfoSmall:
 					"<b>Through services such as Microsoft Information Protection</b>, data can be automatically encrypted based on its sensitivity type or risk level. Plus, the protection from unauthorized access travels with the document. ",
 				linkText: [
 					{
@@ -109,7 +108,7 @@ export default {
 			{
 				hint: "TIP 4",
 				title:
-					"Use encryption to protect and control your sensitive emails",
+					"<span class='semi-bold'>Use encryption to protect and control your sensitive emails</span>",
 				description:
 					"CCPA suggests using encryption to safeguard emails as an effective way to securely protect data and personal information from unauthorized parties. For organizations using Office 365, messaging encryption will be on by default, protecting emails both internally and externally. You can also extend company data classification and protection capabilities when sending emails, labeling sensitive data automatically to inform users of the correct usage, and when needed encrypting any attachments for further protection. You can also implement these same policies to encrypt email and documents stored in employee mobile devices, as well as content stored in third-party apps and file sharing services.",
 				videoUrl: "additional-visual-cues-capture.mp4",
@@ -134,13 +133,13 @@ export default {
 			{
 				hint: "TIP 5",
 				title:
-					"Champion consumer privacy rights to build a sustainable business",
+					"<span class='semi-bold'>Champion consumer privacy rights to build a sustainable business</span>",
 				description:
 					"In response to GDPR and CCPA, government agencies around the world are enacting similar privacy laws. By enhancing privacy programs to keep up with the evolving regulatory landscape, you can continue building trust with customers. <br><br>To begin, champion consumer privacy rights in your company by sharing the Microsoft Journey to Compliance e-book. This e-book explains how Microsoft assesses compliance risk to meet our obligations and offers examples of key implementation work streams for GDPR and CCPA. To further understand the importance of consumer privacy rights, watch the Championing Data Privacy Rights to Drive Differentiation video webcast.",
 				videoUrl: "additional-visual-cues-capture.mp4",
 				playUrl: "playIcon.png",
 				jsllPlay: "tip-05-select-video-01",
-				additionalInfo:
+				additionalInfoSmall:
 					"<b>In the United States</b>, federal agencies—such as the Federal Trade Commission (FTC), National Telecommunications and Information Administration (NTIA), and National Institute of Standards and Technology (NIST) —are creating US privacy standards and guidance.",
 				linkText: [
 					{
@@ -155,7 +154,7 @@ export default {
 	},
 	bottomSection: {
 		title: "Microsoft 365 solutions",
-		shortnote:
+		shortnoteSmall:
 			"Microsoft 365 offers a set of security and mobility software capabilities specifically tailored for people who work under strict compliance regulations.",
 		description:
 			"Delivered through a unique environment that helps meet many stringent requirements regardless of organization, Microsoft 365 is an ideal cloud solution for customers beginning their journey to compliance and other data privacy regulations.",
